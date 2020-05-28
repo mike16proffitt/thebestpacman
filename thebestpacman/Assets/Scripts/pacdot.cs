@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using UnityEngine;
 
 public class pacdot : MonoBehaviour
@@ -8,6 +8,7 @@ public class pacdot : MonoBehaviour
         if (co.name == "pacman")
         {
             Destroy(gameObject);
+            Score.scoreValue += 3;
         }
     }
 }
